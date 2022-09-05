@@ -51,7 +51,7 @@ int i[]={165, 98, 266, 227, 321, 195, 147, 291, 484, 285, 267, 204,
  477, 174, 71, 282, 46, 7, 255, 159, 16, 51, 121, 61,
  16, 255, 186, 89, 324, 44, 58, 60, 449, 13, 27, 197};
  int counter=0;
-int rad(int a){
+int   around (int a){
 	counter++;
 	if(counter>sizeof(i))counter=0;
 	return i[counter];
